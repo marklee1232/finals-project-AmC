@@ -47,9 +47,10 @@ export default function App() {
       <Text style={styles.nameText}>Mark Lee Fedelin</Text>
 
       <Text style={styles.bioText}>I'm taking Bachelor Science Information Technology at Global Reciprocal Colleges.Detail-oriented and proactive Information Technology IT student with a passion for technology and a strong foundation in programming, network administration, and cybersecurity. Possesses exceptional problem-solving skills and a keen ability to learn and adapt to new technologies rapidly.</Text>
-
+ <View style = {styles.titleContainer}>
+      <Text style={styles.sectionTitle}>Contact Information </Text>
+      </View>
       <View style={styles.infoBox}>
-       
         <View style={styles.infoItem}>
           <Text style={styles.infoIcon}>📞</Text>
           <Text style={styles.infoText}>09613831281</Text>
@@ -192,7 +193,6 @@ const styles = StyleSheet.create({
     backgroundColor:'lightgray',
       flexDirection: 'row',
     flexWrap: 'wrap',
-    justifyContent: 'space-evenly',
     alignItems: 'center',
     margin: 10,
     borderRadius:10
