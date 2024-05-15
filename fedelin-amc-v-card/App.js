@@ -58,7 +58,9 @@ export default function App() {
 
         <View style={styles.infoItem}>
           <Text style={styles.infoIcon}>✉️</Text>
+           <TouchableOpacity onPress={() => Linking.openURL('https://mail.google.com/mail/u/0/?hl=en-GB#inbox')}>
             <Text style={styles.infoText}>fedelinmarklee@gmail.com</Text>
+            </TouchableOpacity>
         </View>
 
         <View style={styles.infoItem}>
